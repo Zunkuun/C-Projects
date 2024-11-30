@@ -77,7 +77,7 @@ void registro(struct Escola Registr[], int *numalunos){
         Registr[*numalunos].nomeAluno[strcspn(Registr[*numalunos].nomeAluno, "\n")] = '\0';
         
         
-        while (1) //Usei while(1), pq tem o if, e achava que if com for ia ser chato e complicado dms, dai usei while
+        while (1)
         {
             printf("Adicione nota %d bimestre: ", i+1);
             scanf("%f", &nota);
